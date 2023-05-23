@@ -20,5 +20,8 @@ console.log(usersInputStrings());
 function inputString (){
     const inputValue = prompt('Введите строку');
     const inputCountSymbols = prompt('Введите количество символов');
-
+    const stringSlise = inputValue.slice(0,inputCountSymbols);
+    return stringSlise + '...';
 }
+
+inputString();

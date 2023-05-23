@@ -65,11 +65,11 @@
 
 
 
-// trim
-// const email = 'any@mail.ru                                     '
-// console.log(email)
-// console.log(email.trim())
-// console.log(email.trimStart())
+//trim
+const email = 'any@mail.ru                                     '
+console.log(email)
+//console.log(email.trim())
+//console.log(email.trimStart())
 // console.log(email.trimEnd())
 
 
