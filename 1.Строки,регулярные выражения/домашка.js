@@ -32,3 +32,20 @@ function toUpString (){
 }
 
 console.log(toUpString());
+
+/* Написать функцию, валидирующую ФИО из кирилличиских символов (считать, что отчество может оканчиваться только на "вна" или "вич"
+или может отсутствовать)
+ */
+
+
+
+/*5.  На вход дана строка, вернуть через alert все числа (десятичные разделяются символом ".")
+ */
+
+function stringNumber() {
+    const inputStringUsers = prompt('введите строку в виде чисел ');
+    const restore = inputStringUsers.split('').join('.');
+    alert(restore);
+};
+
+stringNumber();

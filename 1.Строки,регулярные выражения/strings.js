@@ -58,10 +58,10 @@
 
 
 
-// replace
-// const email = 'any@mail.ru any2@mail.ru'
-// console.log(email.replace('mail','yandex'))
-// console.log(email.replaceAll('mail','yandex'))
+//replace
+const email = 'any@mail.ru any2@mail.ru'
+console.log(email.replace('mail','yandex'))
+console.log(email.replaceAll('mail','yandex'))
 
 
 
